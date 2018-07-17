@@ -1,0 +1,30 @@
+{
+  "name": "webpack4",
+  "version": "1.0.0",
+  "description": "> webpack 是一个现代 JavaScript 应用程序的静态模块打包器(module bundler)。当 webpack 处理应用程序时，它会递归地构建一个依赖关系图(dependency graph)，其中包含应用程序需要的每个模块，然后将所有这些模块打包成一个或多个 bundle。 > **webpack v4.0.0 开始 支持默认配置** 然而，webpack 仍然还是高度可配置的。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/webpack-dev-server --progress --host 127.0.0.1",
+    "build": "./node_modules/.bin/webpack --progress --colors --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WYoYao/webpack4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WYoYao/webpack4/issues"
+  },
+  "homepage": "https://github.com/WYoYao/webpack4#readme",
+  "dependencies": {
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "raw-loader": "^0.5.1",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
